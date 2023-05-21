@@ -96,7 +96,7 @@ public class Event {
 
 
     public void getInfoEvent() {
-        System.out.println("Party: " + this.title);
+        System.out.println("Party: " + title);
         System.out.println("There are:");
         for (int i = 0; i < visitors.length; i++) {
             System.out.println(i+1 + ") " + visitors[i].getName() + " from room number: " + visitors[i].getRoom());
@@ -105,7 +105,7 @@ public class Event {
 
 
     public void getInfoEventAfterRemoveVisitor() {
-        System.out.println("Party: " + this.title);
+        System.out.println("Party: " + title);
         System.out.print("Kicked out: ");
         for (int i = 0; i < visitorRemove.length; i++) {
             System.out.print(visitorRemove[i].getName() + ", ");
